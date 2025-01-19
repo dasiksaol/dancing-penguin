@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5;
+}
+
+h1 {
+    color: #444;
+    margin-top: 20px;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.gif-box {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    border: 2px solid #aaa;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.gif-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gif-box:hover {
+    transform: scale(1.1);
+}

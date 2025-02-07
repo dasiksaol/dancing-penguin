@@ -8,7 +8,7 @@ body {
 
 h1 {
     color: #444;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .gif-container {
@@ -38,4 +38,27 @@ h1 {
 
 .gif-box:hover {
     transform: scale(1.1);
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+
+    background: rgb(157, 236, 237);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: black;
+    padding: 10px 20px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 50px;
 }
